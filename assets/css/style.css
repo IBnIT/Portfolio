@@ -1,5 +1,5 @@
 :root {
-    --primary-color: orange;
+    --primary-color: rgb(0, 174, 255);
     --secondary-color: gray;
     --tertiary-color: black;
   }
@@ -10,7 +10,8 @@ a {
 
 header {
     padding: 20px 35px;
-    background-color: orange;
+    background-image: url('../images/portfolio-bg.jpg');
+    background-color: rgb(0, 174, 255);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -54,7 +55,7 @@ header nav {
   }
   
   header nav ul li a:hover {
-    background: orange;
+    background:  rgb(0, 174, 255)e;
     color: gray;
     border-radius: 15px;
     text-shadow: none;
