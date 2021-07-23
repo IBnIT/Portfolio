@@ -60,3 +60,14 @@ header nav {
     border-radius: 15px;
     text-shadow: none;
   }
+
+  address{
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+   
+  }
+
+  p{ 
+    align-items: flex-start;
+  }
