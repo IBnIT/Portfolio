@@ -7,9 +7,9 @@
 a {
     color: black;
 }  
-
+/* header styles start */
 header {
-    padding: 20px 35px;
+    padding: 5px 15px;
     background-image: url('../images/portfolio-bg.jpg');
     background-color: rgb(0, 174, 255);
     display: flex;
@@ -19,14 +19,21 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: 100%;
+    border: 5px solid gray; 
   }
 
 header h1 {
     font-weight: bold;
-    margin: 0;
-    font-size: 38px;
+    font-size: 36px;
     color: black;
     text-shadow: 0 0 10px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+
+header a {
+  text-decoration: none;
+  
 }
 
 header h1:hover {
@@ -35,7 +42,7 @@ header h1:hover {
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 15px 0;
   }
   
   header nav ul {
@@ -51,23 +58,151 @@ header nav {
     font-weight: bold;
     color: black;
     font-size: 2.5vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 153, 255, 0.5);
   }
   
   header nav ul li a:hover {
-    background:  rgb(0, 174, 255)e;
-    color: gray;
-    border-radius: 15px;
+    background: white;
+    color: black;
+    border-radius: 5px;
     text-shadow: none;
+
   }
 
+  /* header styles end */
+
+  /* headshot styles start */
+
+.headshot {
+  background-image: url(../images/portfolio-bg.jpg) ;
+  background-size: cover;
+  background-position: 100%;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.headshot div {
+  text-align: right;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+
+.headshot div a {
+  border: 5px solid gray;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.headshot img {
+  border: 5px solid gray;
+  border-radius: 15px;
+  margin: 3%;
+}
+
+
+  /* headshot styles end */
+
+  /* section title styles start */ 
+  .section-title {
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid;
+    color:black;
+    padding-bottom: 25px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    width: 90%;
+
+  }
+
+  /* section title styles end */
+
+
+  /* about me styles start */
+
+
+.about-me p {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+  /*  about me styles end  */
+
+  /*  work styles start */
+  .my-work {
+    background-color: var(--primary-color);
+  }
+
+  .project-tiles {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    background-size: 100%;
+  }
+
+  .work-tile {
+    margin: 10px;
+    flex: 1;
+    background: white;
+    color: rgb(0, 0, 0);
+    border: 5px solid black;
+    border-radius: 15px;
+  }
+
+  .work-tile img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .project-bio {
+    padding: 5px;
+    line-height: 1.0;
+  }
+
+  .project-bio h3 {
+  font-size: 20px;
+  }
+
+  .project-bio h4 {
+  font-weight: lighter;
+  font-size: 16px;
+  }
+
+  /*  work styles end  */
+
+  /*  contact styles start */
+  .contact-info h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .contact-info p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*  contact styles end  */
+
+
+  /* address styles start */
   address{
-    text-align: left;
+    text-align: inherit;
     font-style: normal;
     font-weight: bold;
-   
   }
 
-  p{ 
-    align-items: flex-start;
+  /* address styles end */
+
+  /* resume styles start */
+
+  .resume {
+    font-family: Arial, Helvetica, sans-serif;
   }
